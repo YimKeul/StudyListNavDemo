@@ -25,7 +25,7 @@ struct CarDetail: View {
                     Text("Hybrid")
                         .font(.headline)
                     Spacer()
-                    Image(systemName: selectedCar.isHybrid ? "checkmark.cricle" : "xmark.circle")
+                    Image(systemName: selectedCar.isHybrid ? "checkmark.circle" : "xmark.circle")
                 }
             }
         }
