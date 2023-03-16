@@ -11,6 +11,11 @@
 		86315BA429C2BD93005B47B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86315BA329C2BD93005B47B9 /* ContentView.swift */; };
 		86315BA629C2BD94005B47B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86315BA529C2BD94005B47B9 /* Assets.xcassets */; };
 		86315BA929C2BD94005B47B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86315BA829C2BD94005B47B9 /* Preview Assets.xcassets */; };
+		86315BB029C2BDC2005B47B9 /* CarAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86315BAF29C2BDC2005B47B9 /* CarAssets.xcassets */; };
+		86315BB229C2BDF2005B47B9 /* carData.json in Resources */ = {isa = PBXBuildFile; fileRef = 86315BB129C2BDF2005B47B9 /* carData.json */; };
+		86315BB429C2BE8E005B47B9 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86315BB329C2BE8E005B47B9 /* Car.swift */; };
+		86315BB629C2BEDB005B47B9 /* CarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86315BB529C2BEDB005B47B9 /* CarData.swift */; };
+		86315BB829C2BFFA005B47B9 /* CarStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86315BB729C2BFFA005B47B9 /* CarStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		86315BA329C2BD93005B47B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		86315BA529C2BD94005B47B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86315BA829C2BD94005B47B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86315BAF29C2BDC2005B47B9 /* CarAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CarAssets.xcassets; sourceTree = "<group>"; };
+		86315BB129C2BDF2005B47B9 /* carData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = carData.json; sourceTree = "<group>"; };
+		86315BB329C2BE8E005B47B9 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		86315BB529C2BEDB005B47B9 /* CarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarData.swift; sourceTree = "<group>"; };
+		86315BB729C2BFFA005B47B9 /* CarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +64,12 @@
 				86315BA129C2BD93005B47B9 /* StudyListNavDemoApp.swift */,
 				86315BA329C2BD93005B47B9 /* ContentView.swift */,
 				86315BA529C2BD94005B47B9 /* Assets.xcassets */,
+				86315BAF29C2BDC2005B47B9 /* CarAssets.xcassets */,
+				86315BB129C2BDF2005B47B9 /* carData.json */,
 				86315BA729C2BD94005B47B9 /* Preview Content */,
+				86315BB329C2BE8E005B47B9 /* Car.swift */,
+				86315BB529C2BEDB005B47B9 /* CarData.swift */,
+				86315BB729C2BFFA005B47B9 /* CarStore.swift */,
 			);
 			path = StudyListNavDemo;
 			sourceTree = "<group>";
@@ -125,8 +140,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86315BB229C2BDF2005B47B9 /* carData.json in Resources */,
 				86315BA929C2BD94005B47B9 /* Preview Assets.xcassets in Resources */,
 				86315BA629C2BD94005B47B9 /* Assets.xcassets in Resources */,
+				86315BB029C2BDC2005B47B9 /* CarAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86315BB629C2BEDB005B47B9 /* CarData.swift in Sources */,
 				86315BA429C2BD93005B47B9 /* ContentView.swift in Sources */,
 				86315BA229C2BD93005B47B9 /* StudyListNavDemoApp.swift in Sources */,
+				86315BB429C2BE8E005B47B9 /* Car.swift in Sources */,
+				86315BB829C2BFFA005B47B9 /* CarStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
