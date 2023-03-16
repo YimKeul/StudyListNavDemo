@@ -18,8 +18,25 @@ struct ContentView: View {
                     ListCell(car : car)
                     
                 }
-            }
+                .onDelete(perform: deleteItems)
+                .onMove(perform: moveItems)
+            }.navigationTitle(Text("EV Cars"))
+                .navigationBarItems(leading: NavigationLink(destination: {
+                    AddNewCar(carStore: self.carStore)
+                }, label: {
+                    Text("Add")
+                        .foregroundColor(.blue)
+                }) , trailing: EditButton())
         }
+    }
+    
+    
+    func deleteItems (at offets: IndexSet){
+        carStore.cars.remove(atOffsets: offets)
+    }
+    
+    func moveItems(from source : IndexSet , to destination : Int){
+        carStore.cars.move(fromOffsets: source, toOffset: destination)
     }
 }
 
